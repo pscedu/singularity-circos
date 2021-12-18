@@ -1,4 +1,4 @@
-]#!/bin/bash
+#!/bin/bash
 
 set -x
 
@@ -12,20 +12,18 @@ fi
 alias circos='singularity exec "$DIRECTORY"/singularity-circos-0.69-9.sif circos'
 
 DIRECTORY=$(pwd)
-cd circos-tutorials-0.67/tutorials/2/2
-circos -conf circos.conf
+cd circos-tutorials-0.67/tutorials/2
 
-EXIT_CODE=0
-if [ ! -f circos.png ]; then
-	EXIT_CODE=1
-fi
+for I in 2 3 4 5 6 7 8 9 10;
+do
+	cd $I
+	circos -conf circos.conf
 
-cd ../3
-circos -conf circos.conf
-
-EXIT_CODE=0
-if [ ! -f circos.png ]; then
-       	EXIT_CODE=1
-fi
+	EXIT_CODE=0
+	if [ ! -f circos.png ]; then
+		EXIT_CODE=1
+	fi
+	cd ..
+done
 
 exit $EXIT_CODE
