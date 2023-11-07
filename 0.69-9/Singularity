@@ -37,3 +37,6 @@ From: perl:5.32.1
     wget http://circos.ca/distribution/circos-0.69-9.tgz
     tar -xvf circos-0.69-9.tgz && rm -f circos-0.69-9.tgz
     ln -s $(pwd)/circos-0.69-9/bin/circos /usr/local/bin/circos
+
+%runscript
+    /usr/local/bin/circos "$@"
