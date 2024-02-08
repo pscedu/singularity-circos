@@ -5,7 +5,7 @@ set -x
 shopt -s expand_aliases
 
 if [ ! -d circos-tutorials-0.67 ]; then
-	wget -nc wget http://circos.ca/distribution/circos-tutorials-current.tgz
+	wget -nc http://circos.ca/distribution/circos-tutorials-current.tgz
 	tar -xvf circos-tutorials-current.tgz && rm -fv circos-tutorials-current.tgz
 fi
 
