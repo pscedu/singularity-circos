@@ -6,7 +6,7 @@ From: perl:5.32.1
     EMAIL icaoberg@psc.edu
     SUPPORT help@psc.edu
     REPOSITORY http://gitub.com/pscedu/singularity-circos
-    COPYRIGHT Copyright © 2021-2023 Pittsburgh Supercomputing Center. All Rights Reserved.    
+    COPYRIGHT Copyright © 2021-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
     VERSION 0.69-9
 
 %environment
@@ -40,3 +40,17 @@ From: perl:5.32.1
 
 %runscript
     /usr/local/bin/circos "$@"
+
+%help
+    This Singularity container provides Circos version 0.69-9, a software package for visualizing data and information in a circular layout.
+
+    Included components:
+    - Circos 0.69-9
+    - Required Perl modules and dependencies
+
+    Example Configurations:
+    To learn more about how to configure and use Circos, visit:
+    http://circos.ca/documentation/
+
+    Repository:
+    http://gitub.com/pscedu/singularity-circos
