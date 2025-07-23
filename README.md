@@ -50,7 +50,7 @@ rm -rfv circos-0.69-9
 ```
 
 ---
-Copyright © 2020-2025 Pittsburgh Supercomputing Center. All Rights 
+Copyright © 2020-2024 Pittsburgh Supercomputing Center. All Rights 
 Reserved.
 
 The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
