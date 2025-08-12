@@ -48,7 +48,8 @@ mkdir -p /ocean/datasets/community/genomics/circos
 tar -xvf circos-current.tgz && rm -f circos-current.tgzmv -v circos-0.69-9/data /ocean/datasets/community/genomics/circos/
 rm -rfv circos-0.69-9
 ```
-
+## Contributing
+We welcome contributions to this repository. Before getting started, please review our [Contributing Guide](https://raw.githubusercontent.com/pscedu/singularity-report/refs/heads/main/CONTRIBUTING.md) for detailed instructions and best practices.
 ---
 Copyright © 2020-2025 Pittsburgh Supercomputing Center. All Rights Reserved.
 
